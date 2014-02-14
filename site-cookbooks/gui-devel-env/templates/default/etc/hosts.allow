@@ -1,0 +1,7 @@
+ALL:127.0.0.1
+
+# allow all for local test
+sshd: ALL
+
+# allow access from nifty
+# sshd: 111.171.194. 111.171.196. 111.171.199.

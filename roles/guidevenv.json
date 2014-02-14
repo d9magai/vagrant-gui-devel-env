@@ -1,0 +1,30 @@
+{
+   "name":"guidevenv",
+   "chef_type":"role",
+   "json_class":"Chef::Role",
+
+   "override_attributes":{
+      "java":{
+         "install_flavor":"oracle",
+         "jdk_version":"7",
+         "oracle":{
+            "accept_oracle_download_terms":true
+         }
+      },
+      "eclipse":{
+         "version":"kepler",
+         "suite":"java"
+      }
+   },
+   "run_list":[
+        "recipe[yum]",
+        "recipe[gui-devel-env::basepackages]",
+        "recipe[git]",
+        "recipe[java]",
+        "recipe[eclipse]",
+        "recipe[chef-pleiades]",
+        "recipe[gui-devel-env::network]",
+        "recipe[gui-devel-env::desktop]",
+        "recipe[gui-devel-env::user]"
+     ]
+}

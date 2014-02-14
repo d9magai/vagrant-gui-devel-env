@@ -1,0 +1,3 @@
+NETWORKING=yes
+HOSTNAME=<%= node['newhostname'] %>
+NETWORKING_IPV6=no
