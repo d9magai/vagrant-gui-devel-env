@@ -4,7 +4,7 @@ Vagrant.configure("2") do |config|
 
    config.vm.provider :virtualbox do |vb|
      vb.gui = true
-     vb.customize ["modifyvm", :id, "--memory", "1024"]
+     vb.customize ["modifyvm", :id, "--memory", "2048"]
    end
 
 
