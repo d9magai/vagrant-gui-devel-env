@@ -26,7 +26,7 @@
         "recipe[gui-devel-env::network]",
         "recipe[gui-devel-env::desktop]",
         "recipe[gui-devel-env::user]",
-        "recipe[gui-devel-env::plenv]"
+        "recipe[gui-devel-env::rbenv]"
      ]
 }
 
