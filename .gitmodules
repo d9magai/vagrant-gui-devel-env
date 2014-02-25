@@ -1,0 +1,3 @@
+[submodule "site-cookbooks/cookbook-yumfastestmirror"]
+	path = site-cookbooks/cookbook-yumfastestmirror
+	url = https://github.com/DQNEO/cookbook-yumfastestmirror.git

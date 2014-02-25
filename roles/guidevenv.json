@@ -17,6 +17,7 @@
       }
    },
    "run_list":[
+        "recipe[cookbook-yumfastestmirror]",
         "recipe[yum]",
         "recipe[gui-devel-env::basepackages]",
         "recipe[git]",
