@@ -13,7 +13,15 @@
       },
       "eclipse":{
          "version":"kepler",
-         "suite":"java"
+         "suite":"java",
+         "plugins":[
+            {
+               "http://vrapper.sourceforge.net/update-site/stable": "net.sourceforge.vrapper.feature.group"
+            },
+            {
+               "http://download.aptana.com/studio3/plugin/install": "com.aptana.feature.studio.feature.group"
+            }
+         ]
       }
    },
    "run_list":[
