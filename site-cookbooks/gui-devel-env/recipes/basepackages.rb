@@ -20,8 +20,8 @@ end
 # auditd - SELinux logger
 # netfs - NFS client
 %w{auditd  autofs  avahi-daemon  bluetooth  cups  firstboot
-   gpm  haldaemon  hidd  isdn  ip6tables kudzu  lvm2-monitor  mcstrans 
-   mdmonitor  messagebus  netfs  nfslock  pcscd  portmap
+   gpm  hidd  isdn  ip6tables kudzu  lvm2-monitor  mcstrans 
+   mdmonitor netfs  nfslock  pcscd  portmap
    rawdevices  restorecond  rpcgssd  rpcidmapd  smartd  xfs
    yum-updatesd 
  }.each do |srv|
