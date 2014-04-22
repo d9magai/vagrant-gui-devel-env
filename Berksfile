@@ -4,5 +4,7 @@ cookbook 'yum'
 cookbook 'git'
 cookbook 'java'
 cookbook 'ark'
-cookbook "eclipse", git: 'https://github.com/geocent-cookbooks/eclipse.git'
+cookbook "cookbook-yumfastestmirror", git: 'https://github.com/DQNEO/cookbook-yumfastestmirror.git'
+cookbook "eclipse", git: 'https://github.com/d9magai/eclipse.git'
+cookbook "chef-pleiades", git: 'https://github.com/d9magai/chef-pleiades.git'
 
