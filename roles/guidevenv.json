@@ -24,13 +24,13 @@
       }
    },
    "run_list":[
-        "recipe[cookbook-yumfastestmirror]",
+        "recipe[yumfastestmirror]",
         "recipe[yum]",
         "recipe[gui-devel-env::basepackages]",
         "recipe[git]",
         "recipe[java]",
         "recipe[eclipse]",
-        "recipe[chef-pleiades]",
+        "recipe[pleiades]",
         "recipe[gui-devel-env::network]",
         "recipe[gui-devel-env::desktop]",
         "recipe[gui-devel-env::user]",
