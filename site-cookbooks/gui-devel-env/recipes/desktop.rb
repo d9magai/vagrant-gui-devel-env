@@ -1,10 +1,13 @@
 # install desktop environment
-execute "yum -y groupinstall x11"
-execute "yum -y groupinstall fonts"
-execute "yum -y groupinstall basic-desktop"
-execute "yum -y groupinstall desktop-platform"
-execute "yum -y groupinstall \"Japanese Support\""
-execute "yum -y install glibc"
+[
+"x11",
+"fonts",
+"basic-desktop",
+"desktop-platform",
+"\"JapaneseSupport\"",
+].each do |group|
+  execute "yum -y groupinstall #{group}"
+end
 
 execute "service messagebus start"
 execute "service haldaemon start"
