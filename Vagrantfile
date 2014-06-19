@@ -1,6 +1,5 @@
 Vagrant.configure("2") do |config|
-   config.vm.box = "centos6.4"
-   config.omnibus.chef_version = :latest
+   config.vm.box = "centos6.5"
 
    config.vm.provider :virtualbox do |vb|
      vb.gui = true
