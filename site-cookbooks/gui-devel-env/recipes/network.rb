@@ -31,12 +31,6 @@ template "/etc/hosts.deny" do  source "/etc/hosts.deny"
   mode 0600
 end
 
-template "/etc/inittab" do  source "/etc/inittab"
-  owner "root"
-  group "root"
-  mode 0600
-end
-
 template "/etc/sysconfig/i18n" do  source "/etc/sysconfig/i18n"
   owner "root"
   group "root"
