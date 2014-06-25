@@ -32,7 +32,7 @@
         "recipe[eclipse]",
         "recipe[pleiades]",
         "recipe[gui-devel-env::network]",
-        "recipe[gui-devel-env::desktop]",
+        "recipe[desktop]",
         "recipe[gui-devel-env::user]",
         "recipe[gui-devel-env::rbenv]"
      ]
