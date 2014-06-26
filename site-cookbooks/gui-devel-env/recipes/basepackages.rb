@@ -26,7 +26,7 @@ end
    yum-updatesd 
  }.each do |srv|
   service srv do
-    action :disable
+    action [ :stop, :disable ]
   end
 end
 
