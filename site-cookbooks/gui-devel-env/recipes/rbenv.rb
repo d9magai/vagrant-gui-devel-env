@@ -64,6 +64,21 @@ execute "append to gemrc" do
   action :run
 end
 
+
+execute "install rubygems-update" do
+  user  node['user']
+  group  node['group']
+
+  environment 'HOME' => "#{node['home']}"
+  command <<-EOH
+        #{node['home']}/.rbenv/shims/gem install rubygems-update
+        #{node['home']}/.rbenv/shims/update_rubygems
+        #{node['home']}/.rbenv/shims/gem pristine --all
+  EOH
+  not_if { File.exist?("#{node['home']}/.rbenv/shims/update_rubygems") }
+  action :run
+end
+
 # install rails
 bash "install rails" do
   user  node['user']
