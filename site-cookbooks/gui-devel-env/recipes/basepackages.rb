@@ -1,11 +1,3 @@
-# yum install base packages
-# 
-%w{gcc make nkf wget openssl-devel firefox webkitgtk-devel sqlite-devel}.each do |pkg|
-  package pkg do
-    action :install
-  end
-end
-
 execute "set timezone" do
   command <<-EOH
     cp /usr/share/zoneinfo/Japan /etc/localtime
