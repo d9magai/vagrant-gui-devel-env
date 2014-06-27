@@ -28,6 +28,8 @@
         "recipe[yum]",
         "recipe[yum-repoforge]",
         "recipe[gui-devel-env::basepackages]",
+        "recipe[packages]",
+        "recipe[packages::additional]",
         "recipe[git]",
         "recipe[java]",
         "recipe[eclipse]",
