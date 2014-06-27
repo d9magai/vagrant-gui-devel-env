@@ -26,6 +26,7 @@
    "run_list":[
         "recipe[yumfastestmirror]",
         "recipe[yum]",
+        "recipe[yum-repoforge]",
         "recipe[gui-devel-env::basepackages]",
         "recipe[git]",
         "recipe[java]",
