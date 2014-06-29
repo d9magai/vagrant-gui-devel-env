@@ -2,6 +2,7 @@
 #
 %w{
 gcc
+gcc-c++
 make
 nkf
 wget
