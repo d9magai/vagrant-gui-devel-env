@@ -7,6 +7,7 @@ nkf
 wget
 git
 ruby
+bison
 openssl-devel
 webkitgtk-devel
 sqlite-devel
