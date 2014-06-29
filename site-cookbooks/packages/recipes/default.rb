@@ -6,6 +6,7 @@ make
 nkf
 wget
 git
+ruby
 openssl-devel
 webkitgtk-devel
 sqlite-devel
