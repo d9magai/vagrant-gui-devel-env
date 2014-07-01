@@ -38,7 +38,8 @@
         "recipe[desktop]",
         "recipe[locale]",
         "recipe[gui-devel-env::user]",
-        "recipe[gui-devel-env::rbenv]"
+        "recipe[gui-devel-env::rbenv]",
+        "recipe[disabledeamons]"
      ]
 }
 
