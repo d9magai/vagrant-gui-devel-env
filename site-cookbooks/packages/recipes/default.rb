@@ -9,6 +9,7 @@ wget
 git
 ruby
 bison
+protobuf-lite-devel
 openssl-devel
 webkitgtk-devel
 sqlite-devel
