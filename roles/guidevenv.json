@@ -15,6 +15,12 @@
                "http://vrapper.sourceforge.net/update-site/stable": "net.sourceforge.vrapper.feature.group"
             },
             {
+               "http://download.eclipse.org/releases/kepler": "org.eclipse.php.feature.group"
+            },
+            {
+               "http://e-p-i-c.sf.net/updates/testing": "org.epic.feature.main.feature.group"
+            },
+            {
                "http://eclipse-color-theme.github.com/update": "com.github.eclipsecolortheme.feature.feature.group"
             }
          ]
