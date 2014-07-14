@@ -8,7 +8,7 @@
          "jdk_version":"7"
       },
       "eclipse":{
-         "version":"kepler",
+         "version":"luna",
          "suite":"java",
          "plugins":[
             {
