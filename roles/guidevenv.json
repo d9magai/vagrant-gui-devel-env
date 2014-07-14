@@ -16,9 +16,6 @@
             },
             {
                "http://eclipse-color-theme.github.com/update": "com.github.eclipsecolortheme.feature.feature.group"
-            },
-            {
-               "http://download.aptana.com/studio3/plugin/install": "com.aptana.feature.studio.feature.group"
             }
          ]
       }
