@@ -18,6 +18,9 @@
                "http://download.eclipse.org/releases/kepler": "org.eclipse.php.feature.group"
             },
             {
+               "http://download.eclipse.org/releases/kepler": "org.eclipse.dltk.ruby.feature.group"
+            },
+            {
                "http://e-p-i-c.sf.net/updates/testing": "org.epic.feature.main.feature.group"
             },
             {
