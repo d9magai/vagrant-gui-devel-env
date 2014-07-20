@@ -3,7 +3,7 @@
 
 execute "setting locale" do
   command "localedef -f UTF-8 -i ja_JP ja_JP"
-  not_if "locale | grep ja_JP.utf8"
+  not_if "locale | grep ja_JP.UTF-8"
 end
 
 template "/etc/sysconfig/i18n" do
