@@ -12,10 +12,3 @@ template "/etc/sysconfig/i18n" do
   mode "0644"
 end
 
-execute "set timezone" do
-  command <<-EOH
-    cp /usr/share/zoneinfo/Japan /etc/localtime
-  EOH
-  action :run
-end
-
