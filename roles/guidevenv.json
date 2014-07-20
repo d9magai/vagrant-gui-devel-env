@@ -41,6 +41,7 @@
         "recipe[locale]",
         "recipe[gui-devel-env::user]",
         "recipe[gui-devel-env::rbenv]",
+        "recipe[timezone]",
         "recipe[disabledeamons]"
      ]
 }
