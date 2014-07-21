@@ -1,4 +1,4 @@
-# install desktop environment
+# install gui environment
 [
 "x11",
 "fonts",
