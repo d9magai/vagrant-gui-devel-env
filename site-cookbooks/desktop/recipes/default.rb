@@ -9,7 +9,11 @@
   execute "yum -y groupinstall #{group}"
 end
 
-%w{messagebus haldaemon}.each do |service_name|
+%w{
+messagebus
+haldaemon
+firstboot
+}.each do |service_name|
   service service_name do
     action   [ :enable, :start ]
   end
