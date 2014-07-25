@@ -4,6 +4,7 @@
 firefox
 vim
 terminator
+xclip
 }.each do |pkg|
   package pkg do
     action :install
